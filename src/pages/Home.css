@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(5, 5, 37);
+    font-weight: bold;
+}
+
+.ToDoList
+{
+    width: 35rem;
+    margin: auto;
+    margin-top: 4rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    color: black;
+    text-align: center;
+    border: solid 10px black;
+
+}
+.ToDoList h1{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 10px black;
+    border-radius: 3rem;
+
+}
+
+.ToDoList .InputDiv{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.ToDoList .InputDiv input{ 
+padding: 0.3rem;
+width: 50%;
+border-radius: 2rem;
+outline: none;
+border: solid 2px #999797;
+color: black;
+}
+.ToDoList .InputDiv input::placeholder{ 
+
+    text-transform: uppercase;
+    color: rgba(131, 132, 133, 0.474);
+    }
+    .ToDoList .InputDiv input:focus{
+        transform: scale(1.1);
+        transition: 0.2s;
+        box-shadow: 0 0 1rem black;
+
+    }
+    .ToDoList .InputDiv button{
+        width: 30%;
+        padding: 0.4rem;
+        border-radius: 0.7rem;
+        background-color: orange;
+        color: white;
+        border: none;
+        box-shadow:  0 0 1rem orange;
+
+
+    }
+
+    .ToDoList .InputDiv button:hover{
+        transition: 0.2s;
+        transform: scale(1.1);
+        background-color: black;
+        color: orange;
+        box-shadow: 0 0 1rem black;
+
+    }
+
+    .ToDoList   .TasksDiv .The_Task span
+    {
+display: flex;
+justify-content: space-around;
+margin-top: 2rem;
+align-items: center;
+    }
+
+    .ToDoList   .TasksDiv .The_Task span .Cheak{
+        color: #999797;
+        cursor: pointer;
+    }
+
+    
+    .ToDoList   .TasksDiv .The_Task span .Task_txt{
+        color: #000000da;
+        letter-spacing: 1px;
+        font-size: 2rem;
+    }
+    .ToDoList   .TasksDiv .The_Task span .Exite{
+        font-size: x-large;
+    }
+
+    .Line{
+        color: #afaeaeda;
+        letter-spacing: 1px;
+        font-size: 2rem;
+        }
+
+        
